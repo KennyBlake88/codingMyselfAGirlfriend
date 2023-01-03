@@ -1,8 +1,0 @@
-install PyAudio:
-    - Install portaudio via homebrew 
-        * get the actual install location, which is /opt/homebrew/Cellar/portaudio/19.7.0
-    - Install pyaudio with the command: 
-        -pip install --global-option='build_ext' --global-option='-I/opt/homebrew/Cellar/portaudio/19.7.0/include' --global-option='-L/opt/homebrew/Cellar/portaudio/19.7.0/lib' pyaudio
-
-install Google Cloud Speech Recognition:
-    - pipenv install google-cloud-speech

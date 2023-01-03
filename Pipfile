@@ -5,6 +5,15 @@ name = "pypi"
 
 [packages]
 google-cloud-speech = "*"
+spacy = "*"
+nltk = "*"
+convokit = "*"
+speechrecognition = "*"
+gtts = "*"
+transformers = "*"
+tensorflow = "*"
+pyaudio = "*"
+pyttsx3 = "*"
 
 [dev-packages]
 
